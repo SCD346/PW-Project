@@ -6,9 +6,9 @@
  * Made By MaterializeCSS.com
  */
 
-nav ul a,
 nav .brand-logo {
-  color: #444;
+  color: #ffffff;
+  background-color: black;
 }
 
 p {
@@ -23,18 +23,23 @@ p {
   min-height: 380px;
   line-height: 0;
   height: auto;
-  color: rgba(255,255,255,.9);
+  background color: #000000;
 }
+
+
   .parallax-container .section {
     width: 100%;
-  }
+    background color: #ffffff;
+}
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
     top: 40%;
+    color: #ffffff;
   }
-  #index-banner .section {
+
+#index-banner .section {
     top: 10%;
   }
 }
@@ -50,8 +55,24 @@ p {
 }
 .icon-block .material-icons {
   font-size: inherit;
+  color: #ffffff;
 }
 
 footer.page-footer {
   margin: 0;
+  color: #ffffff;
 }
+
+
+.container {
+  background-color: black;
+  color: #ffffff;
+}
+
+body {
+  background-color: black;
+}
+/*
+.green-text.text-accent-3 {
+  color: #ffE676 !important;
+}*/
