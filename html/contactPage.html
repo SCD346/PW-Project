@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Photography</title>
+
+<a href="PW_exercise.html"><img src="../img/goHome.jpg" alt=""title="Click the image for contact information." width="200" height="60" /></a>
+
+<link rel="stylesheet" href="../css/page2.css">
+<!-- CSS Style sheet link. -->
+<link rel="stylesheet" type="text/css" href="card.css">
+<!-- Online link to jQuery library. -->
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<!-- Online link to Git. -->
+<link href="../css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="../css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+<script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js" </script>
+<!-- Link to local js file. -->
+<script src="../js/init.js"></script>
+<!-- Tried to link the flip.min.js locally.  Does not work right now. -->
+<!-- <script src="jquery.flip.min.js"></script> -->
+
+</head>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#">  </a></li>
+        <li><a href="#"> </a></li>
+      </ul>
+
+<body>
+
+<!-- Gallery Image #1 -->
+<div id="pic1" class="flip"> 
+<!-- This div holds the image that will flip over. -->
+    <div class="front"> 
+        <img src="../img/bikeOrg.jpg" alt="" />
+    </div> 
+<!-- This div containes the text that appears when the image flips over. -->
+    <div class="back">
+        <h3>Stephen Doherty <br> Based in Brooklyn, NY. <br>Contact: SteveD@BrooklynDesign.com</h3>
+    </div> 
+</div>
+
+
+<script>
+// This code will cause the image to flip over upon hovering the cursor over the image.
+$(function(){
+    $(".flip").flip({
+        trigger: 'hover'
+    });
+});
+
+$(function(){
+    $("#pic2").flip({
+        trigger: 'hover'
+    });
+});
+
+$(function(){
+    $("#pic3").flip({
+        trigger: 'hover'
+    });
+});
+</script>
+
+</html>
+
+
+

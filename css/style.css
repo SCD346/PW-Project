@@ -83,4 +83,24 @@ body {
   color: #ffffff;
 }
 
-$("#card").flip();
+.flip {
+    height: 400px;
+    width: 500px;
+    margin: 0 auto;
+}
+.flip img {
+    width: 500px;
+    height: 400px;
+
+}
+.flip .back {
+    background: #000000;
+    color: gray;
+    text-align: center;
+}
+
+.back{
+  font-size: 12;
+}
+
+

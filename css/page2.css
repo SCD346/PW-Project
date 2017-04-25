@@ -2,7 +2,11 @@
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter,  Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- *//*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */html {
+ *//*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
+
+
+ html {
     font-family: sans-serif;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%}
@@ -5205,5 +5209,9 @@ td.visible-print, th.visible-print {
     .hidden-print {
     display: none!important;
 }
+
+.Homelink {
+    font color: red;
 }
+
 /*# sourceMappingURL=bootstrap.min.css.map */
